@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pika-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/pika-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/pika-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pika-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pika-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pika-feedstock/branch/master)
