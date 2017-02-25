@@ -11,6 +11,18 @@ Summary: Pure Python RabbitMQ/AMQP 0-9-1 client library
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pika-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pika-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pika-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pika-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pika-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pika-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pika/badges/version.svg)](https://anaconda.org/conda-forge/pika)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pika/badges/downloads.svg)](https://anaconda.org/conda-forge/pika)
+
 Installing pika
 ===============
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pika` available on your platform 
 ```
 conda search pika --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pika-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pika-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pika-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pika-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pika-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pika-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pika/badges/version.svg)](https://anaconda.org/conda-forge/pika)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pika/badges/downloads.svg)](https://anaconda.org/conda-forge/pika)
 
 
 Updating pika-feedstock
