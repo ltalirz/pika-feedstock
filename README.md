@@ -14,14 +14,16 @@ Summary: Pure Python RabbitMQ/AMQP 0-9-1 client library
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pika-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pika-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pika-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pika-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pika-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pika-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pika-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pika-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/pika-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pika-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pika-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pika-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pika/badges/version.svg)](https://anaconda.org/conda-forge/pika)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pika/badges/downloads.svg)](https://anaconda.org/conda-forge/pika)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pika-green.svg)](https://anaconda.org/conda-forge/pika) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pika.svg)](https://anaconda.org/conda-forge/pika) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pika.svg)](https://anaconda.org/conda-forge/pika) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pika.svg)](https://anaconda.org/conda-forge/pika) |
 
 Installing pika
 ===============
