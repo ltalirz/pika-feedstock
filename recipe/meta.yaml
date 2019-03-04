@@ -1,18 +1,19 @@
-{% set version = "1.0.0b1" %}
+{% set name = "pika" %}
+{% set version = "0.13.0" %}
 
 package:
-  name: pika
-  version: {{ version }}
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
 
 source:
   fn: pika-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/pika/pika-{{ version }}.tar.gz
-  sha256: 922fc08918a782420c27bab7868ea359de4dad565ab505f0a85c1945a862041c
+  sha256: 5338d829d1edb3e5bcf1523b4a9e32c56dea5a8bda7018825849e35325580484
 
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
 
 requirements:
   host:
@@ -28,10 +29,14 @@ test:
     - pika
 
 about:
-  home: http://pika.readthedocs.org
+  home: https://pika.readthedocs.io
   license: BSD 3-clause
+  license_family: BSD
   summary: Pure Python RabbitMQ/AMQP 0-9-1 client library
+  doc_url: https://pika.readthedocs.io
+  dev_url: https://github.com/pika/pika
 
 extra:
   recipe-maintainers:
     - frol
+    - ltalirz
