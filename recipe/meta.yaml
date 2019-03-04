@@ -32,6 +32,7 @@ about:
   home: https://pika.readthedocs.io
   license: BSD 3-clause
   license_family: BSD
+  license_file: LICENSE
   summary: Pure Python RabbitMQ/AMQP 0-9-1 client library
   doc_url: https://pika.readthedocs.io
   dev_url: https://github.com/pika/pika
